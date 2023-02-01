@@ -16,7 +16,7 @@ https://paperswithcode.com/dataset/real-blur-dataset.
 High and low-res photos were taken from random datasets and filtered for appropriate size requirements. 
 
 Data set directory structure (must be recreated to rerun benchmarking)
-
+```
 blur-detection/
     sample-images/
         high-res/
@@ -27,9 +27,11 @@ blur-detection/
         training/
             blurry/
             sharp/
+```
 
 
 ### Results 
+```
 LIBRARY DATASET INFORMATION
 TRAINING LIBRARY
 	Number of Images: 100
@@ -62,3 +64,4 @@ Testing LAPLACIAN_VARIANCE
 	Overall Speed: 131.130000
 	Overall Speed Against HighRes Library: 310.000000
 	Overall Speed Against LowRes Library: 137.000000
+```
